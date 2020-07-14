@@ -1,0 +1,48 @@
+* {
+  color: peru;
+}
+
+/*Selector por tagname*/
+p {
+  text-transform: uppercase;
+}
+
+/* SELECTOR PORR id*/
+#page-heading {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+/* SELECTOR PORR CLASE*/
+
+.btn-success {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border: 1px dotted green;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px #5f5f5f;
+}
+
+/*Practica 2*/
+
+ul {
+  border: 1px solid black;
+  box-shadow: 7px 10px 5px gray;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: solid;
+  border: 3px solid rgb(67, 156, 230);
+  margin: 5px;
+  border-radius: 10px;
+  padding: 5px;
+}
+#pink {
+  color: rgb(240, 122, 234);
+  text-transform: uppercase;
+}
