@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+}
+.square1 {
+  background-color: rgb(124, 3, 124);
+}
+.square2 {
+  background-color: rgb(216, 79, 216);
+}
+.square3 {
+  background-color: rgb(212, 123, 212);
+}
+.square4 {
+  background-color: plum;
+}
+/*Pantalla tablet*/
+@media only screen and (min-width: 758px) {
+  #square-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .square1 {
+    background-color: rgb(128, 167, 21);
+  }
+  .square2 {
+    background-color: rgb(157, 204, 28);
+  }
+  .square3 {
+    background-color: rgb(184, 230, 61);
+  }
+  .square4 {
+    background-color: rgb(173, 240, 142);
+  }
+}
+
+/*Pantalla de escritorio*/
+@media only screen and (min-width: 1024px) {
+  #square-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .square1 {
+    background-color: rgb(59, 124, 185);
+  }
+  .square2 {
+    background-color: rgb(67, 152, 192);
+  }
+  .square3 {
+    background-color: rgb(0, 183, 255);
+  }
+  .square4 {
+    background-color: rgb(105, 194, 230);
+  }
+}
